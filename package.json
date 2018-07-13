@@ -1,0 +1,21 @@
+{
+  "name": "react_resume",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "homepage": "http://codynicholson.github.io/React_Resume_Project",
+  "dependencies": {
+    "file-loader": "^1.1.11",
+    "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
