@@ -131,7 +131,7 @@ h5
     font-size: 1.9em;
 }
 
-.returnHomeL:hover, .downloadBtnS:hover, .downloadBtnL:hover, .returnHomeS:hover
+.download-btn-S:hover, .download-btn-L:hover
 {
     background-color: white;
     color: #f5ae23;
