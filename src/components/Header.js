@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return (
       <div className="banner">
-        <Buttons/>
+        <Buttons buttonsDataProp={this.props.headerDataProp}/>
         <Title titleDataProp={this.props.headerDataProp}/>
         <Contact contactDataProp={this.props.headerDataProp.contacts}/>
         <img className="biopic" src={this.props.headerDataProp.bioPic} alt="Cody Nicholson"/>

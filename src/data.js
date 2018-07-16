@@ -14,7 +14,10 @@ const data =
 			"Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Redux", "Angular", "Jasmine",
 			"Agile Methodologies", "ASP.NET MVC 5", "Entity Framework", "Bootstrap", "jQuery", "MySQL", "Linux", "Selenium Webdriver", "Acceptance Testing", "Leadership"
 		],
-		"bioPic": "https://imgur.com/OG1Mdc8.jpg"
+		"bioPic": "https://imgur.com/OG1Mdc8.jpg",
+		"buttonLinks": [
+			["Download Résumé","https://drive.google.com/file/d/1ZCtGId37TZ4yGHPIeZ9BadQWs69WdR7H/view?usp=sharing"]
+		]
 	},
 	"work": {
 		"jobs": [{
@@ -184,7 +187,7 @@ const data =
     },
     "map": {
         "locations": ["Chicago, IL", "Lincoln Park, IL", "Schaumburg, IL", "Hoffman Estates, IL", "Deerfield, IL"]
-    }
+	}
 }
 
 // const request = async () => {

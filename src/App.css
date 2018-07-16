@@ -100,7 +100,7 @@ h5
     font-weight: 500;
 } */
 
-.downloadBtnL
+.download-btn-L
 {
     display: none;
     height: 40px;
@@ -115,7 +115,7 @@ h5
     margin-left: 2px;
 }
 
-.downloadBtnS
+.download-btn-S
 {
     display: unset;
     height: 40px;
@@ -334,17 +334,17 @@ span
     display: block;
   }
 
-  .downloadBtnS
+  .download-btn-S
   {
     display: none;
   }
 
-  .downloadBtnL
+  .download-btn-L
   {
     display: unset;
   }
 
-  .returnHomeS
+  /* .returnHomeS
   {
     display: none;
   }
@@ -352,7 +352,7 @@ span
   .returnHomeL
   {
     display: unset;
-  }
+  } */
 }
 
 @media screen and (min-width: 750px) and (max-width: 900px)
@@ -447,15 +447,15 @@ span
     font-size: 26px;
   }
 
-  .returnHomeL
+  /* .returnHomeL
   {
     height: 46px;
     width: 150px;
     line-height: 2.2;
     font-size: 20px;
-  }
+  } */
 
-  .downloadBtnL
+  .download-btn-L
   {
     height: 46px;
     width: 200px;
