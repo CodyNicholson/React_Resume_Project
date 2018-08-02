@@ -6,7 +6,7 @@ const data =
 		"contacts": {
 			"email": "codynicholson96@gmail.com",
 			"github": "CodyNicholson",
-			"location": ["Chicago, IL", "Lincoln Park, IL", "Schaumburg, IL"],
+			"location": "Chicago, IL",
 			"linkedIn": "/in/codynicholson"
 		},
 		"welcomeMessage": "This is my résumé webpage where you can find all the details about my skills, experience, and background",
@@ -16,11 +16,10 @@ const data =
 		],
 		"bioPic": "https://imgur.com/OG1Mdc8.jpg",
 		"buttonLinks": [
-			["Download Résumé","https://drive.google.com/file/d/1ZCtGId37TZ4yGHPIeZ9BadQWs69WdR7H/view?usp=sharing"]
+			["Download Résumé","https://drive.google.com/open?id=17B6AVFMMvX8CV8cx7DWSdJjvh4SG1-Ul"]
 		]
 	},
-	"work": {
-		"jobs": [{
+	"jobs": [{
 				"employer": "CDK Global",
 				"title": "Full-Stack Development Intern",
 				"location": "Hoffman Estates, IL",
@@ -52,10 +51,8 @@ const data =
 				"description": "Automated test cases to make sure that our products were running smoothly, without errors. Created methods for various web pages to facilitate the work of myself and other automation engineers. Adapted to a fast paced work environment by learning various skills such as Java, Eclipse, SVN, Selenium, XPath, and SQL.",
 				"link": "http://www.texturacorp.com/"
 			}
-		]
-	},
-	"projects": {
-		"projs": [{
+		],
+	"projects": [{
 				"title": "Tetris Web Application",
 				"dates": "July 2017",
 				"description": "This is a Tetris game I programmed using HTML5 Canvas and JavaScript. The game randomly generates Tetris pieces for the player to place in the Tetris arena using the arrow keys to move them and the 'q' and 'w' keys to rotate them. When the player fills in an entire row they are rewarded with points. Every 50 points the player receives causes the pieces to drop faster.",
@@ -106,10 +103,8 @@ const data =
 				"captions": ["My portfolio homepage", "The top of my résumé page with my skills and welcome message", "The bottom of my résumé page with the places I have lived and worked displayed on google maps"],
 				"link": "https://github.com/CodyNicholson/CodyNicholson.github.io"
 			}
-		]
-	},
-	"education": {
-		"schools": [{
+		],
+	"schools": [{
 				"name": "DePaul University",
 				"location": "Chicago, IL",
 				"degree": "Bachelor of Computer Science",
@@ -149,10 +144,8 @@ const data =
 				"dates": ["2010-2014"],
 				"link": "http://chs.d211.org/"
 			}
-		]
-	},
-	"honor": {
-		"honors": [{
+		],
+	"honors": [{
 				"title": "Eagle Scout",
 				"dates": "July 2014",
 				"location": "Schaumburg, IL",
@@ -173,32 +166,18 @@ const data =
 				"description": "I was accepted into this organization because of my leadership experience and my academic achievements at DePaul University",
 				"link": "https://www.societyleadership.org/"
 			}
-		]
-	},
-	"service": {
-		"cService": [{
+		],
+	"service": [{
 			"title": "Eagle Project",
 			"dates": "April 2014 - August 2014",
 			"description": "Led an effort using 30+ volunteers to complete major phases of capital improvement including the demolition, removal, reconstruction, and addition of a handicap ramp for a sidewalk at the Church of the Holy Spirit. The improvement, besides looking better and having less tripping hazards, was the addition of a handicap ramp to allow people in wheelchairs to access the Church. I also led two different fund-raising efforts that resulted in the Church receiving an 85% discount on the total cost of the project.",
 			"location": "Schaumburg, IL",
-			"images": ["https://i.imgur.com/EoUapPU.jpg", "https://i.imgur.com/Rc8zmmX.jpg", "https://i.imgur.com/TjsYPcn.jpg"],
+			"images": ["https://i.imgur.com/EoUapPU.jpg", "https://i.imgur.com/TjsYPcn.jpg"],
 			"captions": ["The sidewalk after I lead the demolition team in breaking it up into small pieces that we could carry", "A small portion of the team and I at the project site", "The finished sidewalk with the added handicap ramp"]
-		}]
-    },
+		}],
     "map": {
         "locations": ["Chicago, IL", "Lincoln Park, IL", "Schaumburg, IL", "Hoffman Estates, IL", "Deerfield, IL"]
 	}
 }
-
-// const request = async () => {
-// 	const response = await fetch('https://api.myjson.com/bins/10kwta');
-// 	const json = await response.json();
-// 	console.log("DATA: " + json.bio.name);
-// 	return json;
-// }
-
-// request();
-
-// console.log("request: " + json.bio.name);
 
 export default data;

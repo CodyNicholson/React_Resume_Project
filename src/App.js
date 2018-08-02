@@ -14,10 +14,10 @@ class App extends Component {
     return (
       <div className="main">
         <Header headerDataProp={data.bio}/>
-        <Jobs jobsDataProp={data.work}/>
+        <Jobs jobsDataProp={data.jobs}/>
         <Projects projectsDataProp={data.projects}/>
-        <Education educationDataProp={data.education}/>
-        <Honors honorsDataProp={data.honor}/>
+        <Education educationDataProp={data.schools}/>
+        <Honors honorsDataProp={data.honors}/>
         <Service serviceDataProp={data.service}/>
         <Footer footerDataProp={data.bio}/>
       </div>

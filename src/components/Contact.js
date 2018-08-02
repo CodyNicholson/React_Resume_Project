@@ -18,7 +18,7 @@ class Contact extends Component {
             </li>
             <li>
                 <span className="orange-text">Location</span>
-                <span className="white-text">{this.props.contactDataProp.location[0]}</span>
+                <span className="white-text">{this.props.contactDataProp.location}</span>
             </li>
         </ul>
       );

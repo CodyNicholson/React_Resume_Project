@@ -6,7 +6,7 @@ class Jobs extends Component {
         <div id="workExperience" className="gray">
             <h2>Work Experience</h2>
             {
-            this.props.jobsDataProp.jobs.map( function(job, i)
+            this.props.jobsDataProp.map( function(job, i)
             {
               return (
                 <div className="resume-item" key={i}>

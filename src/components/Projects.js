@@ -7,7 +7,7 @@ class Projects extends Component {
         <div id="projects" className="white">
           <h2>Projects</h2>
           {
-            this.props.projectsDataProp.projs.map( function(project, i)
+            this.props.projectsDataProp.map( function(project, i)
             {
               return (
                 <div className="resume-item" key={i}>

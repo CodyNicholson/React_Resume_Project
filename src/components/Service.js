@@ -7,7 +7,7 @@ class Service extends Component {
         <div id="comServe" className="gray">
           <h2>Community Service</h2>
           {
-            this.props.serviceDataProp.cService.map( function(service, i)
+            this.props.serviceDataProp.map( function(service, i)
             {
               return (
                 <div className="resume-item" key={i}>

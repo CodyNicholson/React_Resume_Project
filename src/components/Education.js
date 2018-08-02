@@ -6,7 +6,7 @@ class Education extends Component {
         <div id="education" className="gray">
             <h2>Education</h2>
             {
-            this.props.educationDataProp.schools.map( function(school, i)
+            this.props.educationDataProp.map( function(school, i)
             {
               return (
                 <div className="resume-item" key={i}>

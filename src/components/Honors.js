@@ -6,7 +6,7 @@ class Honors extends Component {
         <div id="honors" className="white">
           <h2>Honors and Awards</h2>
           {
-            this.props.honorsDataProp.honors.map( function(honor, i)
+            this.props.honorsDataProp.map( function(honor, i)
             {
               return (
                 <div className="resume-item" key={i}>
