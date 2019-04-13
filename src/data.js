@@ -11,7 +11,7 @@ const data =
 		},
 		"welcomeMessage": "This is my résumé webpage where you can find all the details about my skills, experience, and background",
 		"skills": [
-			"Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Redux", "Angular", "Jasmine",
+			"Kafka", "Java", "C#", "Python", "TensorFlow", "Keras", "Computer Vision", "Image Processing", "C++", "Design Patterns", "Git", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Redux", "Angular", "Jasmine",
 			"Agile Methodologies", "ASP.NET MVC 5", "Entity Framework", "Bootstrap", "jQuery", "MySQL", "Linux", "Selenium Webdriver", "Acceptance Testing", "Leadership"
 		],
 		"bioPic": "https://imgur.com/OG1Mdc8.jpg",
