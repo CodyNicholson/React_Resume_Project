@@ -19,7 +19,32 @@ const data =
 			["Download Résumé","https://drive.google.com/open?id=17B6AVFMMvX8CV8cx7DWSdJjvh4SG1-Ul"]
 		]
 	},
-	"jobs": [{
+	"jobs": [
+			{
+					"employer": "Arity",
+					"title": "Software Engineer",
+					"location": "Chicago, IL",
+					"dates": "February 2019 - Present",
+					"description": "Developed telematic software to provide a driving score to users insured by our clients so they can more accurately predict the risk associated with driving behavior. Processed data using Spark, Kafka, and Hadoop to provide our clients with updated driving scores daily. Implemented streaming using Flink to replace our batch jobs and make our pipeline more fast and efficient.",
+					"link": "https://www.arity.com/"
+			},
+			{
+					"employer": "Trilogy Education Services",
+					"title": "Data Science Teaching Assistant",
+					"location": "Chicago, IL",
+					"dates": "April 2018 - Present",
+					"description": "Tutored struggling students by asking questions so I could then fill the gaps in their understanding. Planned curriculum with other teaching staff to ensure that the content was delivered in a way that was both easy to digest and appealed to different types of learners. Provided detailed feedback in grading homeworks and while helping with in-class activities.",
+					"link": "https://www.trilogyed.com/"
+			},
+			{
+					"employer": "Perficient",
+					"title": "Associate Technical Consultant",
+					"location": "Chicago, IL",
+					"dates": "June 2018 - December 2018",
+					"description": "Software engagement engineer responsible for delivery of customer-facing solutions projects for presentation to clients. Full-stack development using a wide range of technologies including: C#, ASP.NET Core, Entity Framework, Angular, PHP, MySQL, Microsoft DQL Management Studio, and ASP.NET Web Forms.",
+					"link": "https://www.perficient.com/"
+			},
+			{
 				"employer": "CDK Global",
 				"title": "Full-Stack Development Intern",
 				"location": "Hoffman Estates, IL",
