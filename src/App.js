@@ -20,6 +20,7 @@ class App extends Component {
         <Honors honorsDataProp={data.honors}/>
         <Service serviceDataProp={data.service}/>
         <Footer footerDataProp={data.bio}/>
+        <Header headerDataProp={data.bio}/>
       </div>
     );
   }

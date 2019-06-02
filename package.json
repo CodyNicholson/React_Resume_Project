@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://codynicholson.github.io/React_Resume_Project/",
   "dependencies": {
-    "ajv": "^6.10.0",
-    "gh-pages": "^2.0.1",
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,5 +18,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
