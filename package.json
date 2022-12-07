@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://codynicholson.github.io/React_Resume_Project/",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "express-favicon": "^2.0.1",
     "path": "^0.12.7",
     "react": "^16.4.1",
